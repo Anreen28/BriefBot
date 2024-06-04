@@ -1,0 +1,76 @@
+body{
+    background-color: #F6F6F6;
+}
+
+.or_title{
+    background-color: #FFE2E2;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2x;
+    display: flex;
+    justify-content: center;
+}
+.sum_title{
+    background-color: #FFC7C7;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2x;
+    display: flex;
+    justify-content: center;
+}
+
+.srt{
+    display: flex;
+    flex-direction: row;
+}
+
+.ortxt{
+    background-color: #FFE2E2;
+    padding: 20px;
+}
+.sumtxt{
+    background-color: #FFC7C7;
+    padding: 20px;
+    margin-left: 10px;
+}
+.ori{
+    background-color: #FFE2E2;
+}
+.sumbut{
+    background-color: #FFC7C7;
+}
+.navbar {
+    background-color: #AAAAAA;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 2x;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container.head {
+    background-color: #AAAAAA;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Align items to the start */
+    width: 100%; /* Full width of the page */
+    padding: 20px; /* Add padding if needed */
+    box-sizing: border-box; 
+    position: relative; /* Ensure it positions correctly */
+    left: 0;
+    right: 0;
+}
+
+.bb {
+    margin: 0; /* Reset margin if necessary */
+}
+
+p {
+    margin: 0; /* Reset margin if necessary */ /* Add text color for the paragraph if needed */
+}
